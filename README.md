@@ -30,25 +30,24 @@ This uses Bootstrap & jQuery to give an intutive UI, which auto populates the co
 
 ## Component Details
 ### Apex Classes
-RestBitPlayRestAPIService
-CurrencyConverterService
-CurrencyConverterExtension
-CurrencyConverterTest
-MockRestBitPlayRestAPIService
+* RestBitPlayRestAPIService
+* CurrencyConverterService
+* CurrencyConverterExtension
+* CurrencyConverterTest
+* MockRestBitPlayRestAPIService
 
 ### VF Page
-CurrencyConverter.vfp
+* CurrencyConverter.vfp
 
 ### Static Resource
-Bootstrap Css & JS
-jQuery JS
+* Bootstrap Css & JS
+* jQuery JS
 
 ### Custom Settings
-Currencies
+* Currencies
 
 ### Report
-Quick Currency Report
-
+* Quick Currency Report
 
 ## Author
 * **Prabha RG** - *Initial work*
