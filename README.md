@@ -1,6 +1,6 @@
 # Bitcoin - Currency Converter App
 
-This SF app, will let the users convert between bitcoin value and another currency value. It also has an intutive UI, which auto converts between currencies when the user keys in the value. 
+This SF app lets the users convert between bitcoin value and another currency value. It also has an intutive UI, which auto converts between currencies when the user keys in the value. 
 
 ## Approach & Reasoning
 
