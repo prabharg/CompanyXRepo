@@ -55,6 +55,7 @@ public class CurrencyConverterTest {
        List<CurencyCodes__c> lst = new List<CurencyCodes__c> ();
        lst.add(new CurencyCodes__c(code__c = 'USD',name='US Dollars'));
        lst.add(new CurencyCodes__c(code__c = 'EUR',name='EURO'));
+       insert lst;
        CurrencyConverterExtension ccxt = new CurrencyConverterExtension(new ApexPages.StandardController(new CurrencyConvertTransaction__c())); 
        List<SelectOption> sopt = ccxt.getFieldOptions();
        system.assert(sopt!=null && sopt.size()==2);
